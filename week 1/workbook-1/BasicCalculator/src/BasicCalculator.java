@@ -46,9 +46,14 @@ public class BasicCalculator {
                 multiply = firstNumber * secondNumber;
                 break;
             case "d":
-                divide = firstNumber / secondNumber;
+                if (secondNumber != 0) {
+                    divide = firstNumber / secondNumber;
+                } else {
+                    System.out.println("Error: Cannot divide by zero");
+                }
+                break;
             default:
-                System.out.println("Please select an option: ");
+                System.out.println("Invalid option selected.");
                 break;
         }
 
