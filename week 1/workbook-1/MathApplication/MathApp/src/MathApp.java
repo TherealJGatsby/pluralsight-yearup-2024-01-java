@@ -32,5 +32,15 @@ public class MathApp {
         // then use System.out.println() to display results
         System.out.println("The cheapest price is " + cheapestPrice);
 
+        // Question 3.
+        double radius = 7.25;
+
+        System.out.println("The area of the circle is " + );
+        System.out.println();
+
+
+        // Question 4. find the distance between two points
+        int x1 = 5, y = 10;
+
     }
 }
